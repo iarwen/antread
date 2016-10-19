@@ -7,7 +7,7 @@
     <artifactId>antread-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>antread-tools</artifactId>
-  <name>antread-tools</name>
+  <artifactId>antread-framework</artifactId>
+  <name>antread-framework</name>
   <url>http://maven.apache.org</url>
 </project>
