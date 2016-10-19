@@ -2,12 +2,12 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.hna.logistics</groupId>
-  <artifactId>myStudy</artifactId>
+  <groupId>com.antread</groupId>
+  <artifactId>antread</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>${packageType}</packaging>
+  <packaging>pom</packaging>
 
-  <name>myStudy</name>
+  <name>antread</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -22,7 +22,7 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.4.0.RELEASE</version>
         <relativePath></relativePath>
-    </parent>
+  </parent>
 
   <dependencies>
   	<dependency>
