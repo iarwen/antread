@@ -8,7 +8,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @EnableTransactionManagement
-@SpringBootApplication(scanBasePackages = "com.small")
+@SpringBootApplication(scanBasePackages = "com.antread")
 @ConfigurationProperties(prefix = "spring.application")
 public class ApplicationMain {
 	private static Logger logger = LoggerFactory.getLogger(ApplicationMain.class);
