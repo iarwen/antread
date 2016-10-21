@@ -1,4 +1,4 @@
-package org.antread.tools.system.domain;
+package com.antread.tools.system.domain;
 public class BookImage{
 	private String small;
 	private String medium;

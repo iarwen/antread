@@ -1,4 +1,4 @@
-package org.antread.framework;
+package com.antread.framework;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

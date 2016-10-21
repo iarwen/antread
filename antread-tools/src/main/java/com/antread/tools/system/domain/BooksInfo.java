@@ -1,4 +1,4 @@
-package org.antread.tools.system.domain;
+package com.antread.tools.system.domain;
 
 import javax.persistence.Id;
 
