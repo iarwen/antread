@@ -1,4 +1,4 @@
-package com.antread.tools.controller.version;
+package com.antread.tools.controller.monitor;
 
 import java.util.Arrays;
 
@@ -17,11 +17,11 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 
 @Aspect
 @Component
-public class VersionAspect {
+public class VisitAspect {
 	
 	private Logger logger = LoggerFactory.getLogger(this.getClass());
 
-	@Pointcut("execution(public * com.antread.*.controller.*(..))")
+	@Pointcut("execution(public * com.antread.*.controller.*.*(..))")
 	public void webController() {
 	}
 
@@ -32,7 +32,7 @@ public class VersionAspect {
 		HttpServletRequest request = attributes.getRequest();
 
 		// 记录下请求内容
-		logger.info("URL : " + request.getRequestURL().toString());
+		logger.info("URL : " + request.getRequestURI().toString());
 		logger.info("HTTP_METHOD : " + request.getMethod());
 		logger.info("IP : " + request.getRemoteAddr());
 		logger.info("CLASS_METHOD : " + joinPoint.getSignature().getDeclaringTypeName() + "."
