@@ -19,7 +19,7 @@
 		<java.version>1.8</java.version>
 		<mysql.version>5.1.38</mysql.version>
 		<poi.version>3.12</poi.version>
-		<fastjson.version>1.2.14</fastjson.version>
+		<fastjson.version>1.2.31</fastjson.version>
 	</properties>
   	<parent>
         <groupId>org.springframework.boot</groupId>
