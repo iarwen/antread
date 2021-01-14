@@ -18,7 +18,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
 		<mysql.version>5.1.38</mysql.version>
-		<poi.version>3.12</poi.version>
+		<poi.version>4.1.2</poi.version>
 		<fastjson.version>1.2.62</fastjson.version>
 	</properties>
   	<parent>
